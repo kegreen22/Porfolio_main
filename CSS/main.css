@@ -1,4 +1,6 @@
-.less-gutter > [class*='col-'] {
-  padding-right:5;
-  padding-left:5;
+.less-gutter [class*='col-'] {
+  padding-right:5px;
+  padding-left:5px;
+  margin:0px;
 }
+
