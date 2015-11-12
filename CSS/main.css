@@ -7,3 +7,17 @@
   padding-right: 0;
   padding-left: 0;
 }
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.row {
+    padding: 0px 0px 0px 0px;
+}
+
+.col-sm-4 {
+    padding: 0px 0px 0px 0px;
+}
+
