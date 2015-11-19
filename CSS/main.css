@@ -23,8 +23,11 @@
 }
 
 #name {
+  display: inline-block;
   color: #086A87;
+  size: 40px;
   text-align: right;
+
 }
 
 #curve_space {
@@ -44,4 +47,9 @@
 #project_title {
   color: #747704;
   text-align: center;
+}
+
+#logo {
+  align: left;
+
 }
