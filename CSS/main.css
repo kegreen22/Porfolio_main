@@ -26,3 +26,22 @@
   color: #086A87;
   text-align: right;
 }
+
+#curve_space {
+  padding-bottom: 15px;
+}
+
+#work {
+  padding: 5px;
+  color: #BCBBBB;
+}
+
+#project_desc {
+  color: #BCBBBB;
+  text-align: center;
+}
+
+#project_title {
+  color: #747704;
+  text-align: center;
+}
