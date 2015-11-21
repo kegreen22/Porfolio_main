@@ -23,10 +23,10 @@
 }
 
 #name {
-  display: inline-block;
+  text-align: right;
   color: #086A87;
   size: 40px;
-  text-align: right;
+  color: #BCBBBB;
 
 }
 
@@ -51,5 +51,10 @@
 
 #logo {
   align: left;
+  padding-top: 15px;
 
+}
+hr {
+border-width: 5px;
+color: #747704;
 }
