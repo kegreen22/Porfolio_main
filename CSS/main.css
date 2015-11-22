@@ -51,10 +51,10 @@
 
 #logo {
   align: left;
-  padding-top: 15px;
+  margin: 15px;
 
 }
 hr {
-border-width: 5px;
+border-width: 3px;
 color: #747704;
 }
