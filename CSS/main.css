@@ -1,6 +1,6 @@
 .nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .row {
@@ -12,38 +12,37 @@
 }
 
 #name {
-  text-align: right;
-  color: #086a87;
-  size: 40px;
-  color: #bcbbbb;
-
+    text-align: right;
+    color: #086a87;
+    size: 40px;
+    color: #bcbbbb;
 }
 
 #curve_space {
-  padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 #work {
-  padding: 5px;
-  color: #bcbbbb;
+    padding: 5px;
+    color: #bcbbbb;
 }
 
 #project_desc {
-  color: #bcbbbb;
-  text-align: center;
+    color: #bcbbbb;
+    text-align: center;
 }
 
 #project_title {
-  color: #747704;
-  text-align: center;
+    color: #747704;
+    text-align: center;
 }
 
 #logo {
-  align: left;
-  margin: 15px;
-
+    align: left;
+    margin: 15px;
 }
+
 hr {
-border-width: 3px;
-color: #747704;
+    border-width: 3px;
+    color: #747704;
 }
