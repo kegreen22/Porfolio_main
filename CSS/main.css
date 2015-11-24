@@ -1,20 +1,13 @@
-.nopadding {
-    padding: 0 !important;
-    margin: 0 !important;
+.picture {
+    margin: auto;
 }
 
-.row {
-    padding: 0px 0px 0px 0px;
-}
 
-.col-sm-4 {
-    padding: 0px 0px 0px 0px;
-}
 
 #name {
     text-align: right;
     color: #086a87;
-    size: 40px;
+    font-size: 40px;
     color: #bcbbbb;
 }
 
@@ -38,7 +31,7 @@
 }
 
 #logo {
-    align: left;
+    text-align: left;
     margin: 15px;
 }
 
