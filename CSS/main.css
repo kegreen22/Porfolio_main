@@ -22,17 +22,17 @@
     padding-bottom: 15px;
 }
 
-#work {
+.work {
     padding: 5px;
     color: #bcbbbb;
 }
 
-#project_desc {
+.project_desc {
     color: #bcbbbb;
     text-align: center;
 }
 
-#project_title {
+.project_title {
     color: #747704;
     text-align: center;
 }

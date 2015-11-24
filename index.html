@@ -12,8 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,15 +28,8 @@
     <div class="container-fluid">
 
         <div class="row">
-            <!-- Left col -->
-            <div class="col-sm-3"></div>
-            <!-- end of col class -->
 
-            <div class="col-sm-8">
-                <!-- Right col -->
-
-                <div class="row">
-
+                    <!-- logo and name -->
                     <div class="col-sm-6">
                         <img id="logo" src="Images/udacity-logo.jpg" alt="udacity logo" width="50" height="50">
                     </div>
@@ -47,41 +39,44 @@
                     </div>
                 </div>
 
+                <!-- main picture -->
                 <div class="row">
-                    <div class="col-sm-12">
-                        <hr>
-                    </div>
+
+                        <hr> <!-- line bar -->
+
 
                     <div class="col-sm-12" id="curve_space"><img class="img-rounded" src="Images/curvature.jpg" alt="curving structure" width="800" height="350">
                     </div>
-
+                </div>
 
                     <h3 id="work">Featured Work</h3>
 
+                    <!-- row for projects -->
+                    <div class="row">
                     <div class="col-sm-4">
                         <img class="img-rounded" src="Images/weekend10.jpg" alt="books on stairs" width="250" height="175">
-                        <h3 id="project_title">Treble</h3>
-                        <p id="project_desc">Follow your interests</p>
-                        <p id="project_desc">https://github.com/kegreen22/Treble</p>
-                        <p id="project_desc">treble-interests.herokuapp.com</p>
+                        <h3 class="project_title">Treble</h3>
+                        <p class="project_desc">Follow your interests</p>
+                        <p class="project_desc">https://github.com/kegreen22/Treble</p>
+                        <p class="project_desc">treble-interests.herokuapp.com</p>
                     </div>
 
                     <div class="col-sm-4">
                         <img class="img-rounded" src="Images/window_house.jpg" alt="house with bright walls and windows" width="250" height="175">
-                        <h3 id="project_title">CitySpring</h3>
-                        <p id="project_desc">Find child resources</p>
-                        <p id="project_desc">https://github.com/kegreen22/cityspring2</p>
-                        <p id="project_desc">cityspring.herokuapp.com</p>
+                        <h3 class="project_title">CitySpring</h3>
+                        <p class="project_desc">Find child resources</p>
+                        <p class="project_desc">https://github.com/kegreen22/cityspring2</p>
+                        <p class="project_desc">cityspring.herokuapp.com</p>
                     </div>
 
                     <div class="col-sm-4">
                         <img class="img-rounded" src="Images/passing_train.jpg" alt="train passing with woman standing" width="250" height="175">
-                        <h3 id="project_title">Postit</h3>
-                        <p id="project_desc">Sample reddit app</p>
-                        <p id="project_desc">https://github.com/kegreen22/Post-it</p>
-                        <p id="project_desc">rpror115.herokuapp.com</p>
+                        <h3 class="project_title">Postit</h3>
+                        <p class="project_desc">Sample reddit app</p>
+                        <p class="project_desc">https://github.com/kegreen22/Post-it</p>
+                        <p class="project_desc">rpror115.herokuapp.com</p>
                     </div>
-
+                </div>
 
                 </div>
                 <!-- end of last row div -->
@@ -94,7 +89,9 @@
     </div>
     <!-- end of container -->
 
-
+    <!-- script to load after the page loads -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 
 </html>
